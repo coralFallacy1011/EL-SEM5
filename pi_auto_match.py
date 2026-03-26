@@ -8,7 +8,7 @@ import time
 app = Flask(__name__)
 
 BROKER = "localhost"
-VEHICLES = ["ESP1", "ESP2"]
+VEHICLES = ["ESP1", "ESP2", "ESP3"]
 
 vehicle_state = {v: "IDLE" for v in VEHICLES}
 last_messages = []
